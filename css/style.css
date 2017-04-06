@@ -1,0 +1,751 @@
+/* font-family: "NeoSansProRegular"; */
+@font-face {
+    font-family: "Neo Sans Pro Regular";
+    src: url("../fonts/NeoSansProRegular.eot");
+    src: url("../fonts/NeoSansProRegular.eot?#iefix")format("embedded-opentype"),
+    url("../fonts/NeoSansProRegular.woff") format("woff"),
+    url("../fonts/NeoSansProRegular.ttf") format("truetype");
+    font-style: normal;
+    font-weight: normal;
+}
+
+/* font-family: "NeoSansProMedium"; */
+@font-face {
+    font-family: "Neo Sans Pro Medium";
+    src: url("../fonts/Neo_Sans_Pro_Medium.eot");
+    src: url("../fonts/Neo_Sans_Pro_Medium.eot?#iefix")format("embedded-opentype"),
+    url("../fonts/Neo_Sans_ProMedium.woff") format("woff"),
+    url("../fonts/Neo_Sans_Pro_Medium.ttf") format("truetype");
+    font-style: normal;
+    font-weight: normal;
+}
+
+/* font-family: "NeoSansProLight"; */
+@font-face {
+    font-family: "Neo Sans Pro Light";
+    src: url("../fonts/Neo_Sans_Pro_Light.eot");
+    src: url("../fonts/Neo_Sans_Pro_Light.eot?#iefix")format("embedded-opentype"),
+    url("../fonts/Neo_Sans_Pro_Light.woff") format("woff"),
+    url("../fonts/Neo_Sans_Pro_Light.ttf") format("truetype");
+    font-style: normal;
+    font-weight: normal;
+}
+
+/* font-family: "PTSansBold"; */
+@font-face {
+    font-family: "PT Sans Bold";
+    src: url("../fonts/PTSansBold.eot");
+    src: url("../fonts/PTSansBold.eot?#iefix")format("embedded-opentype"),
+    url("../fonts/PTSansBold.woff") format("woff"),
+    url("../fonts/PTSansBold.ttf") format("truetype");
+    font-style: bold;
+    font-weight: bold;
+}
+
+/* font-family: "PTSansRegular"; */
+@font-face {
+    font-family: "PT Sans Regular";
+    src: url("../fonts/PTSansBold.eot");
+    src: url("../fonts/PTSansRegular.eot?#iefix")format("embedded-opentype"),
+    url("../fonts/PTSansRegular.woff") format("woff"),
+    url("../fonts/PTSansRegular.ttf") format("truetype");
+    font-style: normal;
+    font-weight: normal;
+}
+
+
+/* Сброс стилей */
+
+html, body, div, span, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, 
+a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, 
+small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, 
+fieldset,  form,  label,  legend,  table,  caption,  tbody,  tfoot,  thead,  tr,  th,  td, 
+article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary, time, mark, audio, video {
+   
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	vertical-align: baseline;
+}
+article,  aside,  details,  figcaption,  figure,  footer,  header,  hgroup,  menu,  nav, 
+section {
+	display: block;
+}
+body {
+
+	font-family: "PTSansRegular";
+	color: #0e1f38;
+	background-color: #f2f1f0;
+}
+
+.container-fluid {
+	min-width: 1170px;
+}
+
+.container {
+	min-width: 1140px;
+}
+
+
+/* Общие, повторящиеся стили */
+
+a {
+	text-decoration: none!important;
+}
+
+.section_title {
+	
+	font-size: 56px;
+	font-family: "Neo Sans Pro Light";
+	text-align: center;
+	padding-bottom: 76px;
+
+}
+
+.titles {
+	padding-top: 104px;
+	padding-bottom: 64px;
+}
+
+
+/* Первый экран */
+#firstscreen {
+    background: url(../img/first_screen_background.jpg) no-repeat;
+    background-position: center center;
+    background-size: cover;
+    height: 859px;
+
+}
+
+.logo {
+	display: block;
+	margin: auto;
+	position: relative;
+	padding-top: 119px;	
+	padding-bottom: 57px;
+	z-index: 15;
+	
+}
+
+h1 {
+	position: relative;
+	color: #fff;
+	line-height: 1;
+	z-index: 25;
+}
+
+
+.rhomb_inside {
+	position: relative;
+	width: 600px;
+	height: 100;
+	margin:auto;
+	background: url(../img/img/headrhomb.png) no-repeat;
+	background: 
+	
+
+}
+
+.first_rhomb {
+	opacity: 0.9;
+	position: absolute;
+	top: -285px;
+	left: 50%;
+	margin-left: -280px;
+	z-index: 1;
+}
+
+
+a.scroll {
+	display: block;
+	position: relative;
+	width: 62px;
+	height: 62px;
+	background: url(../img/scroll_icon.png) no-repeat;
+    background-position: right;
+    background-size: cover;
+    margin:auto;
+    z-index: 12;
+}
+
+
+/*Второй экран о компании */
+
+h2.main_activity {
+	font-size: 19px;
+	font-family: "PT Sans Regular";
+	line-height: 1.2;
+	text-align: center;
+	margin-top: 62px;
+	line-height: 1.1;
+	padding-bottom: 39px;
+	padding-left: 5px;
+	text-indent: 15px;
+
+}
+
+
+
+.we_done {
+	padding-top: 47px;
+	padding-bottom: 139px;
+	text-align: center;
+
+}
+
+.done {
+	font-family: "Neo Sans Pro Medium";
+	font-size: 75px;
+	line-height: 0.9;
+	text-align: center;
+
+}
+
+.done_text {
+	
+	font-family: "Neo Sans Pro Medium";
+	font-size: 30px;
+}
+
+.done1 {
+	color: #f9d026;
+}
+
+.done2 {
+	color: #69cee0;
+	
+}
+.done3 {
+	color: #41b0bf;
+	padding-left: 10px;
+}
+
+.done4 {
+	color: #058896;
+	text-align: left;	
+}
+
+.done5 {
+	color: #166587;
+	float: left;	
+}
+
+.done_text4 {
+	float: left;
+	padding-left: 12px;
+}
+
+sup.upp_number {
+	font-size: 20px;
+}
+
+.done_text_add {
+	
+	padding-left:0;
+	margin-left: 0;
+}
+
+
+/* Специализация */
+
+
+
+.specialization {
+	position: relative;
+	padding-left: 0;
+	padding-right: 0;
+}
+
+
+
+
+.icon_text {
+	position: absolute;
+	top: 164px;
+	left: 0;
+	right: 0;
+	margin: auto;
+	text-align: center;
+	font-family: "PT Sans Bold",arial;
+	font-size: 19px;
+	color: #fff;
+
+
+}
+	
+
+.icons {
+	position: absolute;
+	top: 65px;
+	left: 50%;
+	margin-left: -32px;
+
+}
+
+
+.icon_text2 {
+	position: absolute;
+	top: 104px;
+	left: 0;
+	right: 0;
+	margin: auto;
+	text-align: center;
+	font-family: "PT Sans Bold", arial;
+	font-size: 19px;
+	color: #fff;
+
+
+}
+	
+
+.icons2 {
+	position: absolute;
+	top: 15px;
+	left: 50%;
+	margin-left: -32px;
+
+}
+
+
+.icon_text7 {
+	position: absolute;
+	top: 224px;
+	left: 0;
+	right: 0;
+	margin: auto;
+	text-align: center;
+	font-family: "PT Sans Bold", arial;
+	font-size: 19px;
+	color: #fff;
+
+
+}
+	
+
+.icons7 {
+	position: absolute;
+	top: 115px;
+	left: 50%;
+	margin-left: -32px;
+
+}
+
+#special_activity {
+
+	background: url(../img/specialize_center.png) no-repeat;
+    background-position: center top;
+    background-size: 43%;
+    min-width: 1140px;
+   
+}
+
+
+.figure1 {
+	background: url(../img/rhomb1.png) no-repeat;
+    background-position: left bottom;
+    background-size: contain;
+    height: 300px;
+    padding: 0;
+}
+
+
+.figure2 {
+	position: relative;
+    height: 300px;
+    padding: 0;
+}
+
+.hex2 {
+	position: absolute;
+	top: -64px;
+	
+}
+
+
+.figure3 {
+	background: url(../img/rhomb3.png) no-repeat;
+    background-position: center bottom;
+    background-size: contain;
+    height: 300px;
+}
+
+.figure4 {
+	background: url(../img/rhomb4.png) no-repeat;
+    background-position: right bottom;
+    background-size: contain;
+    height: 300px;
+}
+
+
+.figure5 {
+	position: relative;
+    height: 400px;
+}
+
+.hex4 {
+	position: absolute;
+	top: -64px;
+	left: 33%;
+}
+
+
+.figure6 {
+	background: url(../img/rhomb6.png) no-repeat;
+    background-position: left top;
+    background-size: contain;
+    height: 400px;
+}
+
+.figure7 {
+	background: url(../img/rhomb7.png) no-repeat;
+    background-position: right bottom;
+    background-size: contain;
+    height: 380px;
+    opacity: 0.8;
+}
+
+
+.figure8 {
+	background: url(../img/rhomb8.png) no-repeat;
+    background-position: center top;
+    background-size: contain;
+    height: 300px;
+}
+
+
+
+/* Цели кластера */
+
+#purposes {
+	background: url(../img/purposes_background.jpg) no-repeat;
+    background-position: center top;
+    background-size: cover;
+    height: 833px;
+    
+
+}
+
+.customer {
+	font-size: 19px;
+	font-family: "PT Sans Regular";
+	text-transform: uppercase;
+}
+
+
+.service {
+	font-size: 16px;
+	padding-bottom: 25px;
+	line-height: 1;
+	font-family: "PT Sans Regular";
+}
+
+
+.purpose_title {
+	font-size: 56px;
+	font-family: "Neo Sans Pro Light";
+	color: #122b44;
+	text-align: left;
+	padding-bottom: 34px;
+	padding-top: 127px;
+
+}
+
+
+/* Преимущества */
+
+#advantages {
+	background: url(../img/adv_background.png) no-repeat;
+    background-position: right;
+    background-size: cover;
+    height: 812px;
+    padding-top: 123px;
+
+
+}
+
+.our_adv {
+	color: #0b5077;
+	font-size: 56px;
+	font-family: "Neo Sans Pro Light";
+	display: inline-block;
+	padding-left: 29px;
+
+
+}
+
+.adv_icon {
+	display: inline-block;
+}
+
+
+a.more_info {
+	display: block;
+	font-size: 16px;
+	color: #058896;
+	padding-top: 51px;
+	font-family: "PT Sans Regular";
+}
+
+/* Участники кластера */
+
+
+#partners {
+	
+    height: 609px;
+    margin-bottom: 104px;
+}
+
+
+.provide {
+	text-transform: uppercase;
+	font-size: 19px;
+	color:#058896;
+	padding-bottom: 15px;
+	font-family: "PT Sans Bold", arial;
+	font-weight: bold;
+	white-space: nowrap;
+}
+
+.provide:after {
+	content: '';
+	display: block;
+	clear: both;
+	height: 2px;
+	background-color: #058896; 
+}
+
+.directions {
+	font-size: 16px;
+	font-family: "PT Sans Regular";
+	line-height: 1;
+	padding-bottom: 65px;
+}
+
+/* Вступайте в кластер */
+#enter_claster {
+	background: url(../img/enter_background.jpg) no-repeat;
+    background-position: center top;
+    background-size: 100%;
+    height: 557px;
+
+}
+/* Новости */
+.news,
+.product_title {
+	text-transform: uppercase;
+	color: #058896;
+	font-family: "PT Sans Bold", arial;
+	font-size: 19px;
+	text-align: left;
+
+}
+
+.date {
+	padding-bottom: 53px;
+	padding-top: 13px;
+}
+
+a.button_news {
+	display: table-cell;
+	vertical-align: middle;
+	background-color: #058896;
+	width: 162px;
+	height: 41px;
+	color: #fff;
+	border-radius: 32px;
+	text-transform: uppercase;
+
+}
+.news_img {
+    border-bottom-width: 2px; 
+    border-bottom-style: solid; 
+    border-bottom-color: #058896; 
+	
+}
+
+/* Цитаты */
+
+.quotes_mark {
+	display: inline;
+	color: #bed5da;
+	font-size: 83px;
+
+}
+
+
+.quotes_block {
+	padding-bottom: 69px;
+}
+
+/*Карта */
+
+#map {
+	background: url(../img/map_background.jpg) no-repeat;
+    background-position: center top;
+    background-size: cover;
+    height: 900px;
+
+}
+
+.logo_spb {
+	position: relative;
+	opacity: 0.9;
+	padding-top: 137px;
+	z-index: 2000;
+}
+
+.rhomb_map {
+	position: relative;
+	margin:auto;
+	width: 450px;
+	height: 100%;
+	background: url(../img/map_rhomb.png) no-repeat;
+	margin-top: -200px;
+}
+
+
+.location {
+	position: relative;
+	z-index: 2500;
+	font-family: "Neo Sans Pro Regular";
+	font-size: 24px;
+	text-align: center;
+	padding-top: 50%;
+
+}
+
+/* Продукция кластера */
+
+.product_image {
+	text-align: center;
+	width: 264px;
+	height: 280px;
+	-webkit-clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%);
+	 clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%);
+}
+
+ .product_title {
+text-align: center;
+}
+
+.product_link {
+	display: block;
+	color:#122b44;
+	padding-top: 8px;
+	padding-bottom: 12px;
+}
+
+/* Этапы развития кластера */
+
+#stages {
+background: url(../img/stages_background.jpg) no-repeat;
+    background-position: center top;
+    background-size: cover;
+    height: 941px;
+    margin-top: 221px;
+
+}
+
+
+
+.ribbon {
+	position: relative;
+	background: url(../img/ribbon.png) no-repeat;
+    background-position: left top;
+    background-size: contain;
+    height: 100%;
+    
+    
+}
+
+.year {
+	color: #fff;
+	font-size: 49px;
+	font-family: "Neo Sans Pro Light";
+	text-align: center;
+	
+	
+}
+
+.stage {
+	font-size: 24px;
+	text-align: center;
+	margin-top: 5px;
+	padding-top: 76px;
+	
+}
+
+.year2 {
+	padding-top: 174px;
+}
+
+
+.year3 {
+	padding-top: 329px;
+}
+
+
+.block_title {
+	position: absolute;
+	top: -130px;
+
+
+}
+
+p.stages_title {
+	font-size: 56px;
+	font-family: "Neo Sans Pro Light";
+	text-align: right;
+}
+
+/* Футер */
+#footer {
+    background: url(../img/footer-background.jpg) no-repeat;
+    background-position: center center;
+    background-size: cover;
+    height: 563px;
+
+}
+
+.questions {
+	padding-top: 116px;
+	padding-bottom: 39px;
+	font-size: 56px;
+	font-family: "Neo Sans Pro Light";
+	color: #0b5077;
+}
+
+
+.contacts {
+	font-size: 24px;
+	font-family: "Neo Sans Pro Regular";
+	color: #0e1f38;
+
+}
+
+div.become {
+	display: table;
+}
+
+
+a.becomes {
+	display: table-cell;
+	vertical-align: middle;
+	width: 204px;
+	height: 58px;
+	font-size: 19px;
+	text-align: center;
+	background: #fff;
+	text-transform: uppercase;
+	font-family: "PT Sans Pro Regular";
+	color: #0e1f38;
+	border-radius: 32px;
+}
+
+
+.phone {
+	padding-bottom: 61px;
+}
+
